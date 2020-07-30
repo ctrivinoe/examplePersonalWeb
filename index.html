@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Leonidas Esteban</title>
     <link rel="icon" type="image/png" href="images/favicon.png"/>
+    <link rel="stylesheet" href="css/estilos.css">
   </head>
   <body>
     <header>
@@ -11,20 +12,21 @@
             <figure>
                 <img src="images/logo.png" alt="Logo de http://leonidasesteban.com"/>
             </figure>
-        </div>
+
         <nav>
             <ol>
                 <li>
-                    <a href="#">Portafolio</a>
+                    <a class="link" href="#portafolio">Portafolio</a>
                 </li>
                 <li>
-                    <a href="#">Experiencia</a>
+                    <a class="link" href="#eventos">Experiencia</a>
                 </li>
                 <li>
-                    <a href="#">Trabajemos juntos</a>
+                    <a class="link" href="#contacto">Trabajemos juntos</a>
                 </li>
             </ol>
         </nav>
+        </div>
     </header>    
     <section>
         <h1>
@@ -32,7 +34,7 @@
         </h1>
         <img src="images/hero.jpg" width="500" alt="imagen principal del sitio"/>
     </section>
-    <section>
+    <section id="portafolio">
         <h2>Portafolio (Proyectos Destacados)</h2>
         <article>
             <h3>Platzi Videos</h3>
@@ -43,7 +45,7 @@
             <img src="images/platzi-video-react-native.png" alt="Platzi Video" width="500"/>
         </article>
     </section>
-    <section>
+    <section id="eventos">
         <h2>Más sobre mi Experiencia</h2>
         <article>
             <figure>
@@ -54,7 +56,14 @@
             <a>Ver Plática</a>
         </article>
     </section>
-    <section>seccion contacto</section>
+    <section id="contacto">
+        <form action="/suscripcion/">
+            <h3>¿Creamos algo juntos?</h3>
+            <input type="text" placeholder="Déjame tu email">
+            <input type="submit" value="Enviar">
+            <button>Enviar</button>
+        </form>
+    </section>
     <footer>footer</footer>
 
 </body>
