@@ -1,4 +1,71 @@
+/* gris oscuro: #1d252c
+gris claro: #626262
+background gris: #1b2127 */
+
+
 body {
-    background-color: red;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0px;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.5;
+    letter-spacing: -.2px;
+    color: white;
+    margin: 
+}
+
+h1 strong {
+    color: #026fff;
+}
+.header {
+    background-color: #1d252c;
+    color: white;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    height: 300px;
+    background-image: url('../images/hero.jpg');
+    background-color: #1d252c;
+    background-size: 500px 300px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+.portfolio {
+    background-color: #fafafa;
+}
+
+.project {
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    background-color: white;;
+    
+}
+
+.project-details {
+    width: 500px;
+}
+
+.project-imageContainer {
+    width: 500px;
+}
