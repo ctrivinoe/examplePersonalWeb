@@ -1,5 +1,6 @@
 # Example Personal Web - HTML5 & CSS3
-_Project developed for the Platzi Web Development course_
+_Project developed for the Platzi Web Development course. (First course to learn HTML5 and CSS3)._
+⛔ Not responsive 📵
 
 ## Deployment 🚀🌐
 _You can visit the page at:_
@@ -21,7 +22,8 @@ _You can visit the page at:_
 
 🔴🟡🔴
 
-_Proyecto desarrollado para el curso de Desarrollo Web de Platzi_
+_Proyecto desarrollado para el curso de Desarrollo Web de Platzi. (Primer curso, para aprender lo básico de HTML5 y CSS3)._
+⛔ No adaptable para tel/cel 📵
 
 ## Despliegue 🚀🌐
 _Puedes visitar la página en:_
