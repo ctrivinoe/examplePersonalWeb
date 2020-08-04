@@ -29,14 +29,47 @@ h1 {
 h1 strong {
     color: #026fff;
 }
+
+h2 {
+    color: #026fff;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+
 .header {
     background-color: #1d252c;
     color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    display: flex;
+    align-items: center;
 }
+
+.menu { 
+    height: inherit;
+  }
+
+.header ol {
+    display: flex;
+    height: inherit;
+  }
+
+.header ol li { 
+    height: inherit;
+  }
 
 .header a {
     color: white;
     text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
 }
 
 .hero {
@@ -46,20 +79,40 @@ h1 strong {
     background-size: 500px 300px;
     background-repeat: no-repeat;
     background-position-x: right;
+    display: flex;
+    align-items: center;
 }
 
 .portfolio {
     background-color: #fafafa;
+    padding: 20px;
 }
 
 .project {
     border: 1px solid gray;
     border-radius: 10px;
-    margin: 10px;
     margin-bottom: 15px;
     padding: 20px;
     background-color: white;;
-    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-course,
+.project-date,
+.project-url {
+    margin: 10px 0;
+}
+
+.project-description {
+    font-size: 20px;
+}
+
+.project-title {
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 10px;
 }
 
 .project-details {
@@ -68,4 +121,35 @@ h1 strong {
 
 .project-imageContainer {
     width: 500px;
+}
+
+.project strong {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+figure {
+    margin: 0;
+  }
+
+.footer {
+    color: white;
+    background-color: #1d252c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer img {
+    vertical-align: middle;
+}
+
+.footer a{
+    color: white;
 }
